@@ -19,3 +19,14 @@ connection.end();
 /*
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'root'
 */
+//node demo_db_connection.js
+/* output :
+Connection success
+Connection end
+The solution is:  [ RowDataPacket {
+    id: 2,
+    created_at: 2019-06-29T19:22:16.000Z,
+    designation: 'java Developer',
+    expertise: 'Spring MVC',
+    name: 'pallavi' } ]
+  */
